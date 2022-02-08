@@ -1,7 +1,7 @@
 my_packages = c("randomForest", "data.table", "shiny", "ExpDes.pt", "rmarkdown", "labestdata", "plotly",
 "xtable", "shinythemes", "pracma", "stringr", "ds", "car", "tidyverse", "pacman", "agricolae", "ggthemes",
 "multcompView", "dply", "easyanova", "xlsx", "correlation", "factoextra", "ggraph", "Hmisc", "see", "corrplot",
-"RColorBrewer", "highcarter", "grDevices", "data.table")
+"RColorBrewer", "highcarter", "grDevices")
 
 
 install_if_missing = function(p) {
