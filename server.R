@@ -5,6 +5,36 @@
 #  Paulo Souza <paulosouza@fundacaomt.com.br>         #
 #                                                     #
 #######################################################
+library(shiny)
+library(ExpDes.pt)
+library(rmarkdown)
+library(labestData)
+library(plotly)
+library(xtable)
+library(shinythemes)
+library(pracma)
+library(stringr)
+library(ds)
+library(car)
+library(tidyverse)
+library(ggplot2)
+library(pacman)
+library(agricolae)
+library(ggthemes)
+library(multcompView)
+library(dplyr)
+library(easyanova)
+library(xlsx)
+library(correlation)
+library(factoextra)
+library(ggraph)
+library(Hmisc)
+library(see)
+library(corrplot)
+library(RColorBrewer)
+library(highcharter)
+library(grDevices)
+library(data.table)
 
 server = function(input, output, session) {
   
