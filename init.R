@@ -1,7 +1,9 @@
-my_packages = c("randomForest", "data.table", "shiny", "ExpDes.pt", "rmarkdown", "labestData", "plotly",
-"xtable", "shinythemes", "pracma", "stringr", "ds", "tidyverse", "pacman", "agricolae", "ggthemes",
-"multcompView", "dplyr", "easyanova", "xlsx", "correlation", "factoextra", "ggraph", "Hmisc", "see", "corrplot",
-"RColorBrewer", "highcharter", "grDevices", "car")
+my_packages = c("shiny")
+  
+#"data.table", "ExpDes.pt", "rmarkdown", "plotly",
+#"shinythemes", "pracma", "stringr", "ds", "tidyverse", "pacman", "agricolae", "ggthemes",
+#"multcompView", "dplyr", "easyanova", "xlsx", "correlation", "factoextra", "Hmisc", "see", "corrplot",
+#"RColorBrewer", "highcharter", "grDevices", "car")
 
 
 install_if_missing = function(p) {
@@ -11,3 +13,5 @@ install_if_missing = function(p) {
 }
 
 invisible(sapply(my_packages, install_if_missing))
+
+insta
