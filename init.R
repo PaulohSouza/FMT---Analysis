@@ -1,4 +1,4 @@
-my_packages = c("randomForest", "data.table", "shiny", "ExpDes.pt", "rmarkdown", "labestdata", "plotly",
+my_packages = c("randomForest", "data.table", "shiny", "ExpDes.pt", "rmarkdown", "labestData", "plotly",
 "xtable", "shinythemes", "pracma", "stringr", "ds", "tidyverse", "pacman", "agricolae", "ggthemes",
 "multcompView", "dplyr", "easyanova", "xlsx", "correlation", "factoextra", "ggraph", "Hmisc", "see", "corrplot",
 "RColorBrewer", "highcharter", "grDevices", "car")
