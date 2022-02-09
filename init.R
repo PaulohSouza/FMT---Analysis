@@ -1,15 +1,28 @@
-my_packages = c("shiny", "data.table", "ExpDes.pt", "rmarkdown", "plotly",
-"shinythemes", "pracma", "stringr", "ds", "tidyverse", "pacman", "agricolae", "ggthemes",
-"multcompView", "dplyr", "easyanova", "xlsx", "correlation", "factoextra", "Hmisc", "see", "corrplot",
-"RColorBrewer", "highcharter", "grDevices", "car")
 
+install.packages("shiny",dependencies=TRUE)
 
-my_packages
+install.packages("rtools",dependencies=TRUE)
 
-install_if_missing = function(p) {
-  if (p %in% rownames(installed.packages()) == FALSE) {
-    install.packages(p, dependencies=FALSE)
-  }
-}
+install.packages("shinythemes",dependencies=TRUE)
 
-invisible(sapply(my_packages, install_if_missing))
+install.packages("ExpDes.pt",dependencies=TRUE)
+
+install.packages("rmarkdown",dependencies=TRUE)
+
+install.packages("plotly",dependencies=TRUE)
+
+install.packages("xtable",dependencies=TRUE)
+
+install.packages("nortest",dependencies=TRUE)
+
+install.packages("car",dependencies=TRUE)
+
+install.packages("pracma",dependencies=TRUE)
+
+install.packages("stringr",dependencies=TRUE)
+
+install.packages("ds",dependencies=TRUE)
+
+install.packages("http://leg.ufpr.br/~walmes/pacotes/labestData_0.1-17.458.tar.gz", repos = NULL)
+
+install.packages("https://github.com/gExpDes/gexpdes/raw/master/GExpDes_1.0.1.tar.gz", repos = NULL)
